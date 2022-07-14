@@ -1,5 +1,6 @@
 
-import './App.css';
+import './css/App.css';
+import './css/fonts.css';
 import Header from './components/header.js';
 import Footer from './components/footer.js';
 

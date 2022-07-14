@@ -1,0 +1,146 @@
+.header_nav{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 140px);
+}
+.header_nav .header_nav_link a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header_nav .header_nav_link a .header_nav_link__icon{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.header_nav .header_nav_link a .header_nav_link__icon svg{
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+.header_nav .header_nav_link a .header_nav_link__label span{
+  color: #fff;
+  font-size: 16px;
+}
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  margin: 30px;
+}
+.header_nav_link{
+  margin-bottom: 20px;
+  transition: ease-in-out 0s;
+  padding: 10px 80px 10px 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.header_nav_link:last-child{
+  margin-bottom: 0;
+}
+.header_nav{
+  background: #0876d7;
+  padding: 40px 0px 40px 15px;
+  border-radius: 15px;
+  transition: ease-in-out 0.3s;
+  max-width: 500px;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.header_nav_link:hover{
+
+  background: #fff;
+}
+.header_nav_link:hover svg{
+  fill: #0876d7!important;
+}
+.header_nav_link:hover .header_nav_link__label span{
+  color: #0876d7!important;
+}
+
+.header_nav_link:hover:before{
+  transition: ease-in-out 0s;
+  content: '';
+  top: -20px;
+  right: 0px;
+  position: absolute;
+  background: #0876d7;
+  border-bottom-right-radius: 20px;
+  width: 30px;
+  height: 20px;
+  z-index: 2;
+}
+
+.header_nav_link:hover:after{
+  transition: ease-in-out 0s;
+  content: '';
+  bottom: -20px;
+  right: 0px;
+  position: absolute;
+  background: #0876d7;
+  border-top-right-radius: 20px;
+  width: 30px;
+  height: 20px;
+  z-index: 2;
+}
+.header_nav_link{
+  position: relative;
+}
+.header_nav_link.no_action:hover b:nth-child(1){
+  display: none!important;
+}
+.header_nav_link.no_action:hover b:last-child{
+  display: none!important;
+}
+.header_nav_link.no_action:hover{
+  background: inherit!important;
+}
+.header_nav_link.no_action:hover:before{
+  display: none!important;
+}
+.header_nav_link.no_action:hover:after{
+  display: none!important;
+}
+.header_nav_link.no_action{
+  padding-right: 15px;
+}
+.header_nav_link.no_action:hover svg{
+  fill: #fff!important;
+}
+.header_nav_link:hover b:nth-child(1){
+  transition: ease-in-out 0s;
+  position: absolute;
+  top: -20px;
+  width: 30px;
+  height: 20px;
+  background: #fff;
+  right: 0px;
+  z-index: 1;
+}
+
+.header_nav_link:hover b:last-child{
+  transition: ease-in-out 0s;
+  position: absolute;
+  bottom: -20px;
+  width: 30px;
+  height: 20px;
+  background: #fff;
+  right: 0px;
+  z-index: 1;
+}
+
+.header_nav.thin{
+  max-width: 55px;
+  overflow: hidden;
+}
+
+.header_nav.thin span{
+  transition: ease-in-out 0.3s;
+  color: #0876d7!important;
+}
