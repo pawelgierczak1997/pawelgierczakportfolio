@@ -1,3 +1,8 @@
+.header_nav.thin .header_nav_link:hover .header_nav_link__label span{
+  visibility: hidden;
+  transition: ease-in-out 0s!important;
+}
+
 .header_nav{
   display: flex;
   flex-direction: column;
