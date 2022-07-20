@@ -3,7 +3,7 @@ import { GiSkills } from "react-icons/gi";
 import { MdWeb , MdOutlineContactless } from "react-icons/md";
 import { AiFillRightCircle } from "react-icons/ai";
 import { AiFillLeftCircle } from "react-icons/ai";
-import {useState} from 'react';
+import { useState } from 'react';
 
 
 const Header = () => {

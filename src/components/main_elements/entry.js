@@ -3,12 +3,14 @@
 const Entry = () => {
     
     
-    
+   
+
 
     return (
         <div id="entry">
            
         </div>
+        
     )
 }
 

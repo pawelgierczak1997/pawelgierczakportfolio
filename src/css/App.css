@@ -1,3 +1,22 @@
+/* MAIN */
+
+#entry{
+  min-height: 100vh;
+  background: url('../images/wave.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/* END MAIN */
+
+body{
+  background: aliceblue;
+}
 .header_nav.thin .header_nav_link:hover .header_nav_link__label span{
   visibility: hidden;
   transition: ease-in-out 0s!important;
@@ -6,7 +25,7 @@
 .header_nav{
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 140px);
+
 }
 .header_nav .header_nav_link a{
   display: flex;
